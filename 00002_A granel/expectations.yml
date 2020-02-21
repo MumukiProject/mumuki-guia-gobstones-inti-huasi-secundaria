@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:Desgranar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:Desgranar
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Desgranar
+  inspection: UsesWhile
