@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:Moler
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moler
+  inspection: UsesIf
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: program
+  inspection: Uses:Moler
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Moler
+  inspection: UsesRepeat

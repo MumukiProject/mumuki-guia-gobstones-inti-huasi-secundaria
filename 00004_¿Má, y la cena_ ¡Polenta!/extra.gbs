@@ -1,0 +1,11 @@
+function esPolvoFino() {
+	return (nroBolitas(Azul) == 6)
+}
+
+function esPolenta(){
+  return (hayBolitas(Rojo))
+}
+
+esMaicena(){
+  return (hayBolitas(Negro))
+}
