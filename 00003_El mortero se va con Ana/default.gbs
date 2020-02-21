@@ -1,0 +1,16 @@
+program{
+  repeat(nroBolitas(Azul)){
+    SepararGranoGrueso()
+  }
+  repeat( ){
+    
+  }
+}
+
+procedure SepararGranoGrueso(){
+
+}
+
+procedure SepararGranoFino(){
+
+}
