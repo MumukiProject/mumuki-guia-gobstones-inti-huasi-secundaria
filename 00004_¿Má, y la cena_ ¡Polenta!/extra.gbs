@@ -6,6 +6,6 @@ function esPolenta(){
   return (hayBolitas(Rojo))
 }
 
-esMaicena(){
+function esMaicena(){
   return (hayBolitas(Negro))
 }
